@@ -1,0 +1,23 @@
+name: fin_sent_biases
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - scikit-learn
+  - tqdm
+  - requests
+  - pillow
+  - notebook
+  - pip
+  - pip:
+      - torch
+      - transformers
+      - accelerate
+      - bitsandbytes
+      - openai
+      - anthropic
+      - google-genai
+      - python-dotenv

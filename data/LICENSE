@@ -1,0 +1,19 @@
+The datasets in this folder are licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+They are derived from the Financial PhraseBank (Sentences_AllAgree subset),
+which is licensed under CC BY-NC-SA 3.0:
+
+  Malo, P., Sinha, A., Korhonen, P., Wallenius, J., & Takala, P. (2014).
+  Good debt or bad debt: Detecting semantic orientations in economic texts.
+  Journal of the Association for Information Science and Technology, 65(4), 782-796.
+
+Files:
+  base_sentences.csv                          150 sentences selected from Financial PhraseBank
+  triggerbank.csv                             Final dataset: bias-injected and unbiased sentences
+  prompt_sensitivity/sample_30.csv            Stratified sample of 30 base sentences
+  prompt_sensitivity/biased_sample_alt_1.csv  Sample injected with alternative prompt 1
+  prompt_sensitivity/biased_sample_alt_2.csv  Sample injected with alternative prompt 2
+
+The code in this repository is licensed separately under the MIT License (see ../LICENSE).
