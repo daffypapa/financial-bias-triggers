@@ -1,5 +1,7 @@
 # Bias Before the Model: Detecting and Removing Cognitive Bias Triggers in Financial Text
 
+[Download the PDF Paper](Detecting_and_Mitigating_Cognitive_Biases_in_Financial_News.pdf)
+
 Code and data for our EMNLP 2026 paper.
 
 We inject six types of cognitive bias triggers (anchoring, authority, framing, herding, recency, overconfidence) into financial sentences from the Financial PhraseBank, and study three questions:
